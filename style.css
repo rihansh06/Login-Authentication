@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: azure;
+}
+
+body{
+    background-image: url(background.jpg);
+    display: flex;
+    justify-content: center;
+      
+}
+
+.login{
+    height: 70vh;
+    width: 30vw;
+    background-color: #db86ff2a;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.363); 
+    padding: 10px;
+}
+.heading{
+    margin: 10px;
+    
+    font-size: 18px;
+}
+.input-container{
+    width:80%;
+    border: 2px solid white;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border-radius: 28px;
+    
+}
+
+.input{
+    padding: 12px;
+    font-size: 17px;
+    width: 88%;
+    outline: none;
+    border: none;
+    background: transparent;
+
+    
+}
+.input:active{
+    outline: none;
+    border:none;
+}
+input::placeholder {
+    color: #e4e2e2; 
+    opacity: 1; 
+}
+span{
+    font-size: 18px;
+}
+.login-button{
+    width:75%;
+    margin: 10px;
+    
+}
+.button{
+    width: 100%;
+    color: black;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.2s ease-in;
+}
+
+.button:hover{
+     transform: scale(1.1);
+     background-color: #e0dfdf;
+}
+
+.button:active{
+     transform: scale(0.9);
+     text-decoration: underline;
+     
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.sign-up{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.sign-up-popup{
+    background-color: rgba(20, 0, 20, 0.932);
+    height: 90vh;
+    width: 70vw;
+    border-radius: 25px;
+    display: flex;
+    padding: 18px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.363);
+}
+
+.img{
+    background-image: url(signup.jpg);
+    width: 80%;
+    border-radius: 25px;
+    
+}
+.sign-up-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.back-to-login > p{
+    color: rgb(192, 192, 192);
+}
+.back-to-login  a{
+    color:rgb(192, 192, 192);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.back-to-login a:hover{
+    text-decoration: underline;
+}
+.name{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    
+}
+.firstName,.lastName,.email-id,.pass,.confirm-pass,.username{
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.credentials{
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    
+    
+}
+.email-id,.pass,.confirm-pass,.terms,.username{
+    width: 80%;
+    margin-top: 20px;
+    
+    }
+
+.terms{
+    width: 75%;
+}
+label {
+    font-size: 15px;
+}
+
+label a {
+    color: rgb(204, 0, 180); /* Change to any color for the link */
+    text-decoration: none;
+}
+
+label a:hover {
+    text-decoration: underline;
+}
+.create-an-account{
+    width: 70%;
+    margin-top: 60px;
+}
+.sign-up-button{
+    width: 100%;
+}
+
+
+.incorrect p{
+    color: rgb(255, 11, 11);
+}
+.pass-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.forget-password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: 80vh;
+    background-color: #db86ff2a;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.363);
+    border-radius: 10px;
+}
+
+.email,.user,.newP,.newCp{
+    margin-top: 5px;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(main.jpg);
+    display: flex;
+    justify-content: center;
+    
+}
+.dash-board{
+    width: 40vw;
+    height: 70vh;
+    background-color: rgba(100, 85, 239, 0.333);
+    margin-top: 120px;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.363); 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+
+}
+h3{
+    margin: 20px;
+}
+
+.hidden{
+    display: none;
+}
